@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+  <script defer src="script.js"></script>
+  <title>Frontend Mentor | Expenses chart component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+<div class="container">
+  <section class="header">
+
+    <div class="balance">
+      <p> My balance</p>
+      <h1>$921.48</h1>
+    </div>
+
+    <div class="logo">
+      <img src="images/logo.svg" alt="">
+    </div>
+
+  </section>
+
+  <section class="main">
+    <h2>Spending - Last 7 days</h2>
+
+    <section class="graph">
+      <div class="graph-content">
+        <div class="amount amount-mon">$17.45</div>
+        <div class="amount-graph graph-mon"></div>
+        <div class="period">mon</div>
+      </div>
+
+      <div class="graph-content">
+        <div class="amount amount-tue">$34.91</div>
+        <div class="amount-graph graph-tue"></div>
+        <div class="period">tue</div>
+      </div>
+
+      <div class="graph-content">
+        <div class="amount amount-wed">$52.36</div>
+        <div class="amount-graph graph-wed"></div>
+        <div class="period">wed</div>
+      </div>
+
+      <div class="graph-content">
+        <div class="amount amount-thur">$31.07</div>
+        <div class="amount-graph graph-thur"></div>
+        <div class="period">thur</div>
+      </div>
+
+      <div class="graph-content">
+        <div class="amount amount-fri">$23.39</div>
+        <div class="amount-graph graph-fri"></div>
+        <div class="period">fri</div>
+      </div>
+
+      <div class="graph-content">
+        <div class="amount amount-sat">$43.28</div>
+        <div class="amount-graph graph-sat"></div>
+        <div class="period">sat</div>
+      </div>
+
+      <div class="graph-content">
+        <div class="amount amount-sun">$25.48</div>
+        <div class="amount-graph graph-sun"></div>
+        <div class="period">sun</div>
+      </div>
+      
+    </section>
+
+    <section class="foot">
+      <h2 class="period top">Total this month</h2>
+      <div class="total-details">
+        <div class="this-month">
+           <h3>$478.33</h3>
+        </div>
+        <div class="last-month">
+          <p>+2.4%</p>
+          <p class="period">from last month</p>
+        </div>
+      </div>
+    </section>
+    
+  </section>
+</div>
+ 
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Faridah-11</a>.
+  </div>
+</body>
+</html>
